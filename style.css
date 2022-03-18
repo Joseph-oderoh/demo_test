@@ -1,11 +1,199 @@
- 
- h1{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+  background-color: rgba(27, 20, 20, 0.726);
+  
+}
+
+nav{
+    color: aquamarine;
+    margin: auto;
+    display: flex;
+   
+}
+
+.nav-menu{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+   
+}
+
+ul a{
+    text-decoration: none;
+    color: rgb(199, 199, 16);
+}
+
+span{
+    font-family: 'Inspiration';
+    font-size: 2em;
+    color: red;
+}
+
+#Home{
+    background-image: url("./images/land.jpeg");
+    background-size: cover;
+    height: 100vh;
     text-align: center;
-    color: blue;
+    font-family: 'Inspiration';
+    border-radius: 45px;
 }
-p{
-    padding: 50px;
-    border: 2px solid;
-    width: 50%;
-    background-color: aqua;
+
+#Home p{
+    color: black;
+    padding-top: 10%;
+    margin: auto;
+    font-size: 5em;
+    text-align: center;
+    font-family: 'Inspiration';
+    font-weight: 800;
 }
+
+.bounce {
+    animation: bounce 3s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-35px);
+    }
+   
+  }
+
+  .btn1{
+      margin-top: 50px;
+      padding: 20px 20px;
+      outline: none;
+      color: white;
+      background-color: black;
+      border-radius: 45px;
+      border: none;
+      font-weight: 700;
+      font-family: 'Inspiration';
+      font-size: 3em;
+  }
+
+  .abt{
+      margin-top: 100px;
+      background-color: wheat;
+  }
+
+  #about-image{
+      height: 90vh;
+      border-radius: 50%;
+      border: none;
+      outline: none;
+      width: 100%;
+      background-color: wheat;
+      
+     
+  }
+
+  .about-pg{
+      padding-left: 10px;
+      margin:  100px ;
+      border-left: 2px solid black;
+     
+  }
+
+  .abt h1{
+      text-align: center;
+      font-family: 'Inspiration';
+      font-size: 3em;
+      font-weight: 800;
+      border-bottom: 2px solid white;
+  }
+
+  .oders{
+      padding: auto;
+      display: flex;
+      justify-content: space-between;
+      background-color: brown;
+      height: 100vh;
+      margin-top: 200px; 
+  }
+
+  .cont{
+      padding: 50px;
+     height:  50%;
+     
+  }
+  .cont p{
+    font-family: 'Inspiration';
+    margin-top: 50px;
+    font-weight: 200;
+    color: white;
+   font-size: 40px;
+}
+
+.cont p:hover{
+    color: yellow;
+}
+
+
+
+  #order1{
+      border: 2px solid yellow;
+      border-radius: 50%;
+  }
+
+  #order2{
+    border-radius: 50%;
+    border: 2px solid yellow;
+}
+
+#order3{
+     border-radius: 50%;
+    border: 2px solid yellow;
+}
+
+.orders2{
+    background-image: url("./images/Fan.jpeg");
+    margin-top: 100px;
+}
+form {
+    width: 100%;
+     margin: auto;
+     margin-top: 20px;
+     color: white;
+     font-weight: 300;
+     background-color: rgba(0, 0, 0, 0.699);
+     
+  }
+  
+
+.flavor{
+    justify-content: center;
+    padding: 5px;
+    background: transparent;  
+    color: yellow;
+    width: 80%;
+}
+
+.size{
+    justify-content: center;
+    padding: 5px;
+    background: transparent;  
+    color: yellow;
+    width: 80%;
+}
+
+.topins{
+    justify-content: center;
+    padding: 5px;
+    background: transparent;  
+    color: yellow;
+    width: 80%;
+}
+
+
+
+ 
